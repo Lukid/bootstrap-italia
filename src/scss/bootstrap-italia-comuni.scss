@@ -1,49 +1,50 @@
-// color custom variables
+//Questo deve essere integrato con il css critico generale e deve essere aggiunto solamente alla home
+// // color custom variables
 
-/*figma color
-primary: #007A52;
-primary dark: #00402B;
-primary light: #56D6AB;
-primary lighter: #F0F8F5;
-*/
+// /*figma color
+// primary: #007A52;
+// primary dark: #00402B;
+// primary light: #56D6AB;
+// primary lighter: #F0F8F5;
+// */
 
-// primary #007A52
-$primary-h: 358;
-$primary-s: 98;
-$primary-b: 75;
+// // primary #007A52
+// $primary-h: 358;
+// $primary-s: 98;
+// $primary-b: 75;
 
-//buttons custom vars
+// //buttons custom vars
 
-// bootstrap italia version variable
-// useful to check for the current version
-@import 'custom/version';
+// // bootstrap italia version variable
+// // useful to check for the current version
+// @import 'custom/version';
 
-// funzioni e variabili colore
+// // funzioni e variabili colore
 @import 'functions';
 @import 'utilities/colors_vars';
 
-// color custom variables
-$color-text-primary-hover: hsl(160, 100%, 19%); // color-seagreen-19
-$color-text-primary-active: hsl(160, 100%, 14%); // color-seagreen-14
-$color-background-primary-lighter: hsl(160, 40, 92%); // color-seagreen-92
-$btn-comuni-primary-hover: #fff;
-$header-center-bg-color: $primary;
-$header-slim-bg-color: #00402b;
-$section-header-background-color: $primary-a10;
-$section-user-header-background-color: #f0f8f5;
-$card-link-color: $primary;
-$card-comuni-bg-dark: #2c2c2c;
-$footer-comuni-bg-color: #202a2e;
-$link-list-comuni-color: #455a64;
-$link-list-hover-color: $primary;
+// // color custom variables
+// $color-text-primary-hover: hsl(160, 100%, 19%); // color-seagreen-19
+// $color-text-primary-active: hsl(160, 100%, 14%); // color-seagreen-14
+// $color-background-primary-lighter: hsl(160, 40, 92%); // color-seagreen-92
+// $btn-comuni-primary-hover: #fff;
+// $header-center-bg-color: $primary;
+// $header-slim-bg-color: #00402b;
+// $section-header-background-color: $primary-a10;
+// $section-user-header-background-color: #f0f8f5;
+// $card-link-color: $primary;
+// $card-comuni-bg-dark: #2c2c2c;
+// $footer-comuni-bg-color: #202a2e;
+// $link-list-comuni-color: #455a64;
+// $link-list-hover-color: $primary;
 
-//variables
+// //variables
 @import 'variables';
 
-//classi colore
+// //classi colore
 @import 'utilities/colors';
 
-// BS5 Configuration
+// // BS5 Configuration
 @import 'bootstrap/scss/functions';
 @import 'bootstrap/scss/variables';
 @import 'bootstrap/scss/maps';
@@ -83,7 +84,7 @@ $link-list-hover-color: $primary;
 // @import 'bootstrap/scss/modal';
 // @import 'bootstrap/scss/tooltip';
 // @import 'bootstrap/scss/popover';
-// @import 'bootstrap/scss/carousel';
+@import 'bootstrap/scss/carousel';
 // @import 'bootstrap/scss/spinners';
 // @import 'bootstrap/scss/offcanvas';
 // @import 'bootstrap/scss/placeholders';
@@ -103,7 +104,7 @@ $link-list-hover-color: $primary;
 // @import 'custom/breadcrumb';
 // @import 'custom/modal';
 // @import 'custom/accordion';
-// @import 'custom/carousel';
+@import 'custom/carousel';
 // @import 'custom/calendar';
 // @import 'custom/alert';
 // @import 'custom/buttons';
@@ -199,7 +200,7 @@ $link-list-hover-color: $primary;
 // @import 'utilities/icons';
 
 // splide carousel
-// @import '@splidejs/splide/src/css/core/index';
+@import '@splidejs/splide/src/css/core/index';
 
 // override comuni
 // @import 'override-comuni';
