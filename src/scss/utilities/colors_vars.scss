@@ -36,9 +36,9 @@ $grays: map-merge(
 }
 
 // PRIMARY COLORS DEFINITION //
-$primary-h: 210 !default;
-$primary-s: 100 !default;
-$primary-b: 80 !default;
+$primary-h: 358 !default;
+$primary-s: 98 !default;
+$primary-b: 75 !default;
 $primary-l: 40 !default; // Kit UI
 
 $primary: hsb($primary-h, $primary-s, $primary-b) !default; // color-blue-40
@@ -416,8 +416,8 @@ $color-text-warning: hsl(36, 100%, 30%); // color-orange-30
 // SPECIFIC TOKENS =========================================================
 //
 // Footer
-$footer-top-background: $primary-a8; // color-blue-30
-$footer-bottom-background: $primary-a10; // color-blue-20
+$footer-top-background: hsl(197, 18%, 15%);
+$footer-bottom-background: hsl(197, 18%, 15%);
 
 // Icons
 $icon-primary: $primary;

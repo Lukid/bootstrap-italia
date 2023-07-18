@@ -8,9 +8,9 @@ primary lighter: #F0F8F5;
 */
 
 // primary #007A52
-$primary-h: 160;
-$primary-s: 100;
-$primary-b: 48;
+$primary-h: 358;
+$primary-s: 98;
+$primary-b: 75;
 
 //buttons custom vars
 
@@ -25,7 +25,7 @@ $primary-b: 48;
 // color custom variables
 $color-text-primary-hover: hsl(160, 100%, 19%); // color-seagreen-19
 $color-text-primary-active: hsl(160, 100%, 14%); // color-seagreen-14
-$color-background-primary-lighter: hsl(160, 40%, 92%); // color-seagreen-92
+$color-background-primary-lighter: hsl(160, 40, 92%); // color-seagreen-92
 $btn-comuni-primary-hover: #fff;
 $header-center-bg-color: $primary;
 $header-slim-bg-color: #00402b;
@@ -71,7 +71,7 @@ $link-list-hover-color: $primary;
 @import 'bootstrap/scss/nav';
 @import 'bootstrap/scss/navbar';
 @import 'bootstrap/scss/card';
-@import 'bootstrap/scss/accordion';
+// @import 'bootstrap/scss/accordion';
 @import 'bootstrap/scss/breadcrumb';
 @import 'bootstrap/scss/pagination';
 @import 'bootstrap/scss/badge';
@@ -102,50 +102,50 @@ $link-list-hover-color: $primary;
 @import 'custom/tables';
 @import 'custom/breadcrumb';
 @import 'custom/modal';
-@import 'custom/accordion';
+// @import 'custom/accordion';
 @import 'custom/carousel';
 @import 'custom/calendar';
 @import 'custom/alert';
 @import 'custom/buttons';
 @import 'custom/font';
 @import 'custom/forms';
-@import 'custom/form-input-file';
+// @import 'custom/form-input-file';
 @import 'custom/form-input-number';
 @import 'custom/form-input-upload';
 @import 'custom/form-toggles';
-@import 'custom/form-password';
+// @import 'custom/form-password';
 @import 'custom/form-select';
-@import 'custom/form-transfer';
+// @import 'custom/form-transfer';
 @import 'custom/dropdown';
 @import 'custom/pager';
 @import 'custom/tab';
-@import 'custom/cookiebar';
+// @import 'custom/cookiebar';
 @import 'custom/hero';
-@import 'custom/forward';
-@import 'custom/back-to-top';
+// @import 'custom/forward';
+// @import 'custom/back-to-top';
 @import 'custom/autocomplete';
 @import 'custom/linklist';
 @import 'custom/navigation';
-@import 'custom/skiplinks';
+// @import 'custom/skiplinks';
 @import 'custom/affix';
-@import 'custom/sidebar';
-@import 'custom/sidebarthemes';
+// @import 'custom/sidebar';
+// @import 'custom/sidebarthemes';
 @import 'custom/megamenu';
-@import 'custom/bottomnav';
+// @import 'custom/bottomnav';
 @import 'custom/navscroll';
 @import 'custom/navscrolltheme';
 @import 'custom/callout';
-@import 'custom/toolbar';
-@import 'custom/sections';
+// @import 'custom/toolbar';
+// @import 'custom/sections';
 @import 'custom/dialog';
 @import 'custom/notifications';
 @import 'custom/avatar';
-@import 'custom/thumbnav';
+// @import 'custom/thumbnav';
 @import 'custom/steppers';
 @import 'custom/card';
 @import 'custom/imgresponsive';
-@import 'custom/overlay-panel';
-@import 'custom/progress-donuts';
+// @import 'custom/overlay-panel';
+// @import 'custom/progress-donuts';
 @import 'custom/progress-bars';
 @import 'custom/progress-spinners';
 @import 'custom/gridlist';
@@ -154,15 +154,15 @@ $link-list-hover-color: $primary;
 @import 'custom/list';
 @import 'custom/chips';
 @import 'custom/rating';
-@import 'custom/dimmer';
-@import 'custom/timeline';
+// @import 'custom/dimmer';
+// @import 'custom/timeline';
 @import 'custom/anchor';
 @import 'custom/map';
 @import 'custom/point-list';
 @import 'custom/rating-list';
 @import 'custom/badge';
 @import 'custom/figcaption';
-@import 'custom/sticky';
+// @import 'custom/sticky';
 @import 'custom/print';
 @import 'custom/code';
 @import 'custom/images';
